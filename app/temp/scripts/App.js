@@ -61,7 +61,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -11189,6 +11189,7 @@ var Modal = function () {
 	}, {
 		key: "openModal",
 		value: function openModal() {
+			console.log("u clicked this button");
 			this.modal.addClass("modal--is-visible");
 			return false;
 		}
@@ -11287,7 +11288,7 @@ var _noframework = __webpack_require__(1);
 
 var _noframework2 = _interopRequireDefault(_noframework);
 
-var _jquerySmoothScroll = __webpack_require__(7);
+var _jquerySmoothScroll = __webpack_require__(8);
 
 var _jquerySmoothScroll2 = _interopRequireDefault(_jquerySmoothScroll);
 
@@ -11307,14 +11308,14 @@ var StickyHeader = function () {
 		this.headerLinks = (0, _jquery2.default)(".primary-nav a");
 		this.createPageSectionWayPoints();
 		this.addSmoothScrolling();
-		this.refereshWaypoints();
+		this.refreshWaypoints();
 	}
 
 	_createClass(StickyHeader, [{
-		key: 'refereshWaypoints',
-		value: function refereshWaypoints() {
-			this.lazyImages.load(function () {
-				Waypoint.refereshAll();
+		key: 'refreshWaypoints',
+		value: function refreshWaypoints() {
+			this.lazyImages.on('load', function () {
+				Waypoint.refreshAll();
 			});
 		}
 	}, {
@@ -11376,7 +11377,8 @@ exports.default = StickyHeader;
 
 /***/ },
 /* 6 */,
-/* 7 */
+/* 7 */,
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11721,7 +11723,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";

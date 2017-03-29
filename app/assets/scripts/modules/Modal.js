@@ -1,6 +1,5 @@
 import $ from 'jquery';
 
-
 class Modal {
 	constructor(){
 		this.openModalButton = $(".open-modal");
@@ -28,6 +27,7 @@ class Modal {
 	}
 
 	openModal() { 
+		console.log("u clicked this button");
 		this.modal.addClass("modal--is-visible");
 		return false;
 
