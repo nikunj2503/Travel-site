@@ -61,7 +61,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 9);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+>>>>>>> browser-support
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -11288,7 +11292,11 @@ var _noframework = __webpack_require__(1);
 
 var _noframework2 = _interopRequireDefault(_noframework);
 
+<<<<<<< HEAD
 var _jquerySmoothScroll = __webpack_require__(8);
+=======
+var _jquerySmoothScroll = __webpack_require__(9);
+>>>>>>> browser-support
 
 var _jquerySmoothScroll2 = _interopRequireDefault(_jquerySmoothScroll);
 
@@ -11312,8 +11320,13 @@ var StickyHeader = function () {
 	}
 
 	_createClass(StickyHeader, [{
+<<<<<<< HEAD
 		key: 'refreshWaypoints',
 		value: function refreshWaypoints() {
+=======
+		key: 'refereshWaypoints',
+		value: function refereshWaypoints() {
+>>>>>>> browser-support
 			this.lazyImages.on('load', function () {
 				Waypoint.refreshAll();
 			});
@@ -11378,7 +11391,12 @@ exports.default = StickyHeader;
 /***/ },
 /* 6 */,
 /* 7 */,
+<<<<<<< HEAD
 /* 8 */
+=======
+/* 8 */,
+/* 9 */
+>>>>>>> browser-support
 /***/ function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11723,7 +11741,11 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ },
+<<<<<<< HEAD
 /* 9 */
+=======
+/* 10 */
+>>>>>>> browser-support
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
