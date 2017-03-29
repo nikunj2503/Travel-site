@@ -4,6 +4,10 @@
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+
+    &--margin-top {
+            margin-top: 9%;
+    }
     
     &--orange {
         background-color: orange;
